@@ -132,3 +132,6 @@ if (tinyxml2_INSTALL_PKGCONFIG)
         COMPONENT tinyxml2_development
     )
 endif ()
+
+idf_component_register(SRCS tinyxml2.cpp
+                       INCLUDE_DIRS .)
